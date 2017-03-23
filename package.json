@@ -1,0 +1,40 @@
+{
+  "name": "TEDxgitamuniversity",
+  "version": "0.0.1",
+  "description": "TEDxgitamuniversity website",
+  "author": "Akhil Pandey <akhilhector.1@gmail.com>",
+  "contributors": [
+  {
+    "name": "Akhil Pandey",
+    "email": "akhilhector.1@gmail.com"
+  },
+  {
+    "name": "Om Bhallamudi",
+    "email": "om.bhallamudi@gmail.com"
+  }],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "./index.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/AkhilHector/Source-ted"
+},
+  "bugs": {
+  "url": "https://github.com/AkhilHector/Source-ted/issues"
+},
+  "keywords": [
+  "GC",
+  "gusac",
+  "TEDx carnival"
+],
+  "dependencies": {
+    "body-parser": "1.13.x",
+    "express": "4.13.x",
+    "ejs": "2.3.x",
+    "sendgrid": "2.x.x"
+  },
+  "subdomain": "labs.akhilhector.com",
+  "analyze": true,
+  "license": "MIT"
+}

@@ -1,0 +1,234 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Contact | TEDx</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/prettyPhoto.css">
+  <link rel="stylesheet" type="text/css" href="https://ianlunn.github.io/Hover/css/hover.css">
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+  <script>
+    $(document).ready(function() {
+
+      $("#btn1").click(function() {
+        $("li>img").filter("#2014").css("display","inherit");
+      });
+
+      $("#btn2").click(function() {
+        $("li>img").filter("#2013").css("display","inherit");
+      });
+
+
+      $("li>img").filter("#2014").css("display","none");
+      $("li>img").filter("#2013").css("display","none");
+    });
+
+
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+
+  <div class="container">
+    <header class="xheader">
+      <a href="/"><img class="xlogo" src="/img/logo_web.png"/></a>
+      <p class="box1des pull-right" style="float: right;font-size: 1em;font-variant: normal;color: black;">Join us for the next session on <span class="xfont" style="font-size: 1.2em;color: black !important;">APRIL 1<sup>st</sup></span> 2017</p>
+    </header>
+
+    <ul class="nav nav-pills xnav">
+      <li class="xnave"><a href="/">Home</a></li>
+      <li role="presentation" class="dropdown xnave">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Speakers <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="nave"><a href="/2017.ejs">2017</a></li>
+          <li class="nave"><a href="/2016">2016</a></li>
+          <li class="nave"><a href="/2015">2015</a></li>
+          <li class="nave"><a href="/2014">2014</a></li>
+          <li class="nave"><a href="/2013">2013</a></li>
+        </ul>
+      </li>
+      <li class="xnave"><a href="/attend">Attend</a></li>
+      <li class="xnave"><a href="/team">Team</a></li>
+      <li class="xnave"><a href="/contact">Contact</a></li>
+      <li class="xnave"><a href="/about">About</a></li>
+    </ul>
+  </div>
+
+  <div class="xcontainer"></div>
+
+  <!-- BOX 1 DESC -->
+  <div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="xabouthead">CONNECT WITH US</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 ">
+            <iframe class="xpeople" src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTEDxGITAMUniversity%3Fref%3Dbr_tf&amp;width=1140&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=1724671484417559" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%;" allowTransparency="true">
+            </iframe>
+    </div>
+    <div class="col-md-6 box1des3" style="padding-top:2em !important;margin-bottom:1em;">
+      <p>Do you like this page? Feel free to share, we love you for it!</p>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="col-md-6 box1des3">
+        <p>Send us a message, or an email to tedxgitamuniversity@gmail.com</p>
+        <p class="hvr-bounce-in">Licensee: Pranay Metta</p>
+        <p> Ph: +91 7893352626</p>
+        <P>Co-Organizer: Anuhya Mallisetty</P>
+        <p>Ph: +91 9705203424</p>
+      </div>
+
+      <div class="col-md-6">
+        <div class="status alert alert-success" style="display: none"></div>
+        <form id="main-contact-form" class="contact-form" name="contact-form" method="POST" action="/controller/contact" role="form">
+          <div class="row">
+           <div class="col-md-6">
+             <div class="form-group">
+               <input type="text" id="name" name="conname" class="form-control" required="required" placeholder="Name">
+             </div>
+           </div>
+
+           <div class="col-md-6">
+             <div class="form-group">
+               <input type="text" id="email" name="conemail" class="form-control" required="required" placeholder="Email address">
+             </div>
+           </div>
+
+           <div class="col-md-6">
+             <div class="form-group">
+               <input type="text" id="phone" name="conphone" class="form-control" required="required" placeholder="Phone No">
+             </div>
+           </div>
+
+           <div class="col-md-6">
+             <div class="form-group">
+               <input type="text" id="collorg" name="concollorg" class="form-control" required="required" placeholder="College/Organization">
+             </div>
+           </div>
+
+         </div>
+         <div class="row">
+           <div class="col-md-12">
+             <div class="form-group">
+               <textarea name="conmessage" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+             </div>
+             <div class="form-group" style="text-align:center;">
+               <button type="submit" class="btn btn-om2 btn-lg">Send</button>
+             </div>
+           </div>
+         </div>
+         </form>
+       </div>
+   </div>
+
+   <div class="row xmap2">
+
+     <div class="col-md-6">
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+                 <div style="width:100%;height:23em !important;" id="googlemaps">
+                     <div id="map" class="google-map google-map-full">
+
+                     </div>
+
+                </div>
+
+                 <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+                 <script src="js/jquery.gmap.min.js"></script>
+                 <script type="text/javascript">
+                     $('#map').gMap({
+                         controls: {
+                             panControl: false,
+                             zoomControl: false,
+                             mapTypeControl: false,
+                             scaleControl: false,
+                             streetViewControl: false,
+                             overviewMapControl: false
+                         },
+                         maptype: 'ROADMAP',
+                         scrollwheel: true,
+                         zoom: 14,
+                         markers: [
+                             {
+                                 address: 'GITAM University, Gandhi Nagar, Visakhapatnam,Andhra Pradesh,India',
+                                 html: '',
+                                 popup: false,
+                             }
+
+                         ],
+
+                     });
+
+                     $('#mapBg').gMap({
+                         controls: {
+                             panControl: false,
+                             zoomControl: false,
+                             mapTypeControl: false,
+                             scaleControl: false,
+                             streetViewControl: true,
+                             overviewMapControl: false
+                         },
+                         maptype: 'ROADMAP',
+                         scrollwheel: true,
+                         zoom: 14,
+                         markers: [
+                             {
+                                 address: 'GITAM Dental College,Visakhapatnam,Andhra Pradesh,India',
+                                 html: '',
+                                 popup: false,
+                             }
+
+                         ],
+
+                     });
+
+                 </script>
+   </div>
+     <div class="col-md-6 box1des3">
+         <p style="text-align:center;">Come visit the team</p>
+
+     </div>
+
+   </div>
+</div>
+   <div class="section" style="background: #e3e3e3;">
+    <div class="container">
+      <footer style="width: 100%;text-align: center;">
+        <span class="">All Rights Reserved &copy;<a target="_blank" href="https://www.facebook.com/TEDxGITAMUniversity"><span class="xted">TED<sup>x</sup></span><span class="gu">GITAMUniversity 2017</span></a></span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+  <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+
+
+</body>
+</html>

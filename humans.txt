@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Akhil -- Developer
+    Om —- Ninja —- @ethcelon
+
+# THANKS
+
+    Akhil Pandey and Om B
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
