@@ -26,7 +26,7 @@ module.exports.registration = function (foo) {
 
 module.exports.contact = function (foo) {
 	s.send({
-		to: 	 "akhilhector.1@gmail.com",
+		to: 	 "tedxgitamuniversity@gmail.com",
 		from: 	 foo.from,
 		subject: "Contact | TEDxGITAMUniversity",
 		text:    "Mailed from " + foo.name + " and the query is " + foo.query
